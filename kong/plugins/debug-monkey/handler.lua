@@ -1,3 +1,6 @@
+-- (c) 2023 Mercedes-Benz Tech Innovation GmbH
+-- SPDX-License-Identifier: MIT
+
 local socket = require('socket')
 
 local kong = kong
