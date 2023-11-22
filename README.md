@@ -60,7 +60,7 @@ plugins:
       path_replacements:
         ## provided as an example, you do not necessarily need to add the debug plugin, as you'll probably not jump into
         ## it's source code anyway
-        - container_path: '/usr/local/share/lua/5.1/kong/plugins/kong%-debug/'
+        - container_path: '/usr/local/share/lua/5.1/kong/plugins/debug%-monkey/'
           host_path: '/home/<your-username>/src/github.com/mercedes-benz/debug-monkey/kong/plugins/debug-monkey/'
         # do not forget to map the Kong source code, as you'll frequently jump into it's source code
         - container_path: '/usr/local/share/lua/5.1/kong/'
